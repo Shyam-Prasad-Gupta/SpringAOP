@@ -26,3 +26,6 @@ hs_err_pid*
 *.settings
 *.project
 *.classpath
+
+# to ignore the directory of targed for class files and 
+/target/*
