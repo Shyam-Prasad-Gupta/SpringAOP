@@ -11,6 +11,7 @@ public class UserDAO {
 
 	public boolean deleteUser(String userName) {
 
+		Integer.parseInt(userName);//doing this just to created an exception for after throwing
 		System.out.println("User with name: " + userName + " is successfully deleted.");
 		return true;
 	}

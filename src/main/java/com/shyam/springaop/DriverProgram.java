@@ -35,11 +35,11 @@ public class DriverProgram {
 		// userDAO.addUser("Shyam", 20);
 
 		// delete user from database
-		//userDAO.deleteUser("shyam");
+		userDAO.deleteUser("shyam");
 
 		//get the user from database
-		User usr = userDAO.getUser();
-		System.out.println(usr.toString());
+		//User usr = userDAO.getUser();
+		//System.out.println(usr.toString());
 		
 		// close the context
 		annotationConfigApplicationContext.close();
